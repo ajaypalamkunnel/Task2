@@ -14,4 +14,5 @@ def data():
     if not mini and maxi:
         return {"ok":"error","error":"no data provided"}
     ranlist =ran(minimum=int(mini),maximum=int(maxi))
-    return ranlist
+    print(ranlist)
+    return str(ranlist)
